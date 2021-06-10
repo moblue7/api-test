@@ -1,8 +1,10 @@
 ###### Please execute the following commands in order to install and initialize first:
 
++ composer install
 + cp .env.example .env
 + create a database and name it laravel_test in mysql or mariadb
 + database user is predefined as root without password in .env file if necessary please change it
++ php artisan app:key generate
 + php artisan migrate
 + php artisan db:seed
 
